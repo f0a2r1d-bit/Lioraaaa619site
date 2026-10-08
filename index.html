@@ -16,7 +16,7 @@
 .date{font-size:clamp(12px,2vw,15px);letter-spacing:5px;opacity:.95;margin-bottom:28px;text-shadow:0 2px 18px rgba(0,0,0,.8)}
 .line{width:76px;height:1px;background:#415A77;opacity:.85;margin:0 auto 30px;box-shadow:0 0 18px rgba(65,90,119,.7)}
 .emoji{display:inline-block;will-change:transform}.emoji:nth-of-type(1){animation:spin1 1.6s linear infinite}.emoji:nth-of-type(2){animation:spin2 2.2s linear infinite}.emoji:nth-of-type(3){animation:spin3 1.2s linear infinite}@keyframes spin1{0%{transform:rotate(0deg) translateY(0)}25%{transform:rotate(12deg) translateY(-6px)}50%{transform:rotate(0deg) translateY(0)}75%{transform:rotate(-12deg) translateY(-6px)}100%{transform:rotate(0deg) translateY(0)}}@keyframes spin2{0%{transform:rotate(-10deg) translateY(0)}50%{transform:rotate(10deg) translateY(-10px)}100%{transform:rotate(-10deg) translateY(0)}}@keyframes spin3{0%{transform:rotate(0deg) scale(1)}25%{transform:rotate(90deg) scale(1.12)}50%{transform:rotate(180deg) scale(1)}75%{transform:rotate(270deg) scale(1.12)}100%{transform:rotate(360deg) scale(1)}}
-h1{font-size:clamp(32px,7vw,76px);line-height:1.25;font-weight:900;text-shadow:0 3px 30px rgba(0,0,0,.8);margin-bottom:20px}
+.waveText{display:inline-block;position:relative;animation:waveText 3.2s ease-in-out infinite;transform-origin:50% 100%;text-shadow:0 3px 30px rgba(0,0,0,.8),0 0 18px rgba(65,90,119,.28)}@keyframes waveText{0%,100%{transform:translate3d(0,0,0) rotate(0deg) skewX(0deg)}15%{transform:translate3d(-10px,-4px,0) rotate(-2deg) skewX(-3deg)}30%{transform:translate3d(-3px,5px,0) rotate(1deg) skewX(2deg)}45%{transform:translate3d(9px,-3px,0) rotate(2deg) skewX(3deg)}60%{transform:translate3d(5px,6px,0) rotate(-1deg) skewX(-2deg)}75%{transform:translate3d(-7px,-2px,0) rotate(-2deg) skewX(-3deg)}90%{transform:translate3d(2px,3px,0) rotate(1deg) skewX(2deg)}}h1{font-size:clamp(32px,7vw,76px);line-height:1.25;font-weight:900;text-shadow:0 3px 30px rgba(0,0,0,.8);margin-bottom:20px}
 .quote{font-family:Georgia,"Times New Roman",serif;font-size:clamp(21px,4vw,37px);line-height:1.9;text-shadow:0 3px 22px rgba(0,0,0,.9);margin-bottom:14px}
 .small{font-size:clamp(14px,2.5vw,19px);opacity:.95;text-shadow:0 2px 15px rgba(0,0,0,.8);margin-bottom:36px}
 .cta{display:inline-block;padding:15px 27px;border:1px solid rgba(65,90,119,.95);border-radius:999px;background:rgba(65,90,119,.18);backdrop-filter:blur(12px);color:#415A77;text-decoration:none;font-weight:900;transition:.25s;box-shadow:0 10px 45px rgba(0,0,0,.25)}
@@ -32,7 +32,7 @@ h1{font-size:clamp(32px,7vw,76px);line-height:1.25;font-weight:900;text-shadow:0
 <main class="page">
 <section class="content">
 <div class="date">1405/6/19</div><div class="line"></div>
-<h1>WELCOME <span class="emoji">🍓</span><span class="emoji">🦢</span><span class="emoji">✨</span></h1>
+<h1><span class="waveText">WELCOME</span> <span class="emoji">🍓</span><span class="emoji">🦢</span><span class="emoji">✨</span></h1>
 <p class="quote">«برخی شب‌اند، باقی ستاره‌اند و تو ماه»</p>
 <p class="small">WELCOME TO LIORA.</p>
 <a class="cta" href="https://t.me/+qK3h7SZbQUQzYWI0" target="_blank" rel="noopener noreferrer">ورود به کانال LIORA ↗</a>
