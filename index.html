@@ -15,6 +15,7 @@
 @keyframes enter{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
 .date{font-size:clamp(12px,2vw,15px);letter-spacing:5px;opacity:.95;margin-bottom:28px;text-shadow:0 2px 18px rgba(0,0,0,.8)}
 .line{width:76px;height:1px;background:#415A77;opacity:.85;margin:0 auto 30px;box-shadow:0 0 18px rgba(65,90,119,.7)}
+.emoji{display:inline-block;animation:emojiFloat 2.8s ease-in-out infinite;will-change:transform}.emoji:nth-child(2){animation-delay:.45s}.emoji:nth-child(3){animation-delay:.9s}@keyframes emojiFloat{0%,100%{transform:translateY(0) rotate(0deg) scale(1)}30%{transform:translateY(-9px) rotate(-7deg) scale(1.06)}60%{transform:translateY(2px) rotate(6deg) scale(1.02)}80%{transform:translateY(-5px) rotate(-3deg) scale(1.04)}}
 h1{font-size:clamp(32px,7vw,76px);line-height:1.25;font-weight:900;text-shadow:0 3px 30px rgba(0,0,0,.8);margin-bottom:20px}
 .quote{font-family:Georgia,"Times New Roman",serif;font-size:clamp(21px,4vw,37px);line-height:1.9;text-shadow:0 3px 22px rgba(0,0,0,.9);margin-bottom:14px}
 .small{font-size:clamp(14px,2.5vw,19px);opacity:.95;text-shadow:0 2px 15px rgba(0,0,0,.8);margin-bottom:36px}
@@ -31,7 +32,7 @@ h1{font-size:clamp(32px,7vw,76px);line-height:1.25;font-weight:900;text-shadow:0
 <main class="page">
 <section class="content">
 <div class="date">1405/6/19</div><div class="line"></div>
-<h1>WELCOME 🍓🦢✨</h1>
+<h1>WELCOME <span class="emoji">🍓</span><span class="emoji">🦢</span><span class="emoji">✨</span></h1>
 <p class="quote">«برخی شب‌اند، باقی ستاره‌اند و تو ماه»</p>
 <p class="small">WELCOME TO LIORA.</p>
 <a class="cta" href="https://t.me/+qK3h7SZbQUQzYWI0" target="_blank" rel="noopener noreferrer">ورود به کانال LIORA ↗</a>
